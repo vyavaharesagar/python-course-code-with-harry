@@ -11,6 +11,9 @@ def some_work(n):
 if __name__=="__main__":
     print("Now Running Some Work")
     some_work(3)
-    print("done")
+    some_work(1)
+    some_work(6)
+    some_work(9)
+    print("done calling again")
     some_work(3)
     print("called again")
